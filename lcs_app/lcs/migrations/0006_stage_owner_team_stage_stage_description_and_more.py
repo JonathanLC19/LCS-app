@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='stage',
             name='owner_team',
-            field=models.PositiveSmallIntegerField(choices=[(1, 'Marketing'), (2, 'Sales'), (3, 'Customer Care')], default=''),
+            field=models.PositiveSmallIntegerField(choices=[(1, 'Marketing'), (2, 'Sales'), (3, 'Customer Care')], default= 1),
         ),
         migrations.AddField(
             model_name='stage',
